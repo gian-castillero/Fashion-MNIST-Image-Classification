@@ -48,7 +48,7 @@ Conv2d(1→5, 5×5, same) → ReLU → MaxPool2d(2×2) → Flatten(980) → Line
 
 ## Key Findings
 
-The CNN outperforms the MLP with a nearly identical parameter count by exploiting the spatial structure of images. Convolutional filters learn local feature detectors (edges, textures) that are applied across the entire image, whereas the MLP must learn each pixel's contribution independently — a far less parameter-efficient representation.
+The CNN outperforms the MLP with a nearly identical parameter count by exploiting the spatial structure of images. Convolutional filters learn local feature detectors (edges, textures) that are applied across the entire image, whereas the MLP must learn each pixel's contribution independently, a far less parameter-efficient representation.
 
 ## Tech Stack
 
